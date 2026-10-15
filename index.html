@@ -191,12 +191,35 @@
 			convergence of the methods under consideration, which involves rigorous mathematical proofs.
 			</p>
 			
-			<h3 class="mb-2">Research projects</h3>
+			<h3 class="mb-2">Multiphase flow in porous media</h3>
 			<ul>
-			<li> <p class="lead mb-3" style="text-align:justify";>Multiphase flow in porous media</p></li>
-			<li> <p class="lead mb-3" style="text-align:justify";>Phase-field crystal modeling</p></li>
-			<li> <p class="lead mb-3" style="text-align:justify";>Heat transfer due to radiation</p></li>
+			<li> <p class="lead mb-3" style="text-align:justify";><b>Highlights.</b> The modeling of multiphase flows in porous media is a computationally and
+				theoretically challenging problem due to the high nonlinear nature of the problem. I am interested in developing and analyzing discontinuous Galerkin
+				discretizations for the three-phase (aqueous, liquid and vapor) case. Our paper <a target="_blank"href="https://doi.org/10.1093/imanum/drac053">https://doi.org/10.1093/imanum/drac053</a> was the first one to show existence and uniqueness of a DG method for three-phase flows in porous media, and we provided error estimates. Then, in
+				<a target="_blank"href="https://doi.org/10.1016/j.amc.2024.128909"> https://doi.org/10.1016/j.amc.2024.128909</a> we developed a second-order time stepping method
+				for the two-phase flow problem that preserves the energy exactly. We are currently extending this method to the black oil problem, in which phase changes occur.</p></li>
+			<li> <p class="lead mb-3" style="text-align:justify";><b>Collaborators.</b> Loic Cappanera (University of Ottawa), Catalin Trenchea (University of Pittsburgh),
+				Maicon Correa (University of Sao Paulo), Mark Simmons (graduated from University of Houston).</p></li>
 			</ul>
+			<h3 class="mb-2">Phase-field crystal modeling</h3>
+			<ul>
+			<li> <p class="lead mb-3" style="text-align:justify";><b>Highlights.</b> The phase-field crystal equation is a sixth-order nonlinear PDE that models microstructure evolution of two-
+				phase systems (crystal and liquid) on atomic length and diﬀusive time scales. The high order in the equation leads to a large linear system. Moreover, higher order in time is
+				highly desirable to be able to capture the evolution of the phases properly, especially for long time simulations. In <a target="_blank"href="https://doi.org/10.1016/j.apnum.2026.03.003">https://doi.org/10.1016/j.apnum.2026.03.003</a> we designed a novel hybridizable discontinuous Galerkin method based on reformulation of the PDE as a
+				first order system. We proved existence and uniqueness of a solution and our numerical results demonstrate that with a significantly smaller number of degrees of freedom,
+				our method can achieve comparable results than the state of the art literature. Currently, our Doctoral student David Hennicken is working on a second-order time stepping
+				method that preserves energy exactly.</p></li>
+			<li> <p class="lead mb-3" style="text-align:justify";><b>Collaborators.</b> Tamas Horvath (Oakland University), Natasha Sharma (University of Texas at El Paso),
+				David Hennicken (current grad student at Oakland University).</p></li>
+			</ul>
+			<h3 class="mb-2">Heat transfer due to radiation</h3>
+			<ul>
+			<li> <p class="lead mb-3" style="text-align:justify";><b>Highlights.</b> The modeling of welding of plates using lasers involves a heat equation with radiation boundary conditions.
+			I recently published a paper <a target="_blank"href="https://authors.elsevier.com/sd/article/S0377-0427(26)00379-1">https://authors.elsevier.com/sd/article/S0377-0427(26)00379-1</a> in which I showed that a previously noted issue in which the convergence of the method slows down in some cases, is not due to loss of regularity of the solution, but rather
+			it is an artifact of the linearization scheme. I am currently working on obtaining optimal error estimates, and also on extending the method to include advection effects and a time-dependent problem.</p></li>
+<!-- 			<li> <p class="lead mb-3" style="text-align:justify";><b>Collaborators.</b></p></li> -->
+			</ul>
+
 			
       </div>
     </section>
